@@ -1,0 +1,18 @@
+div{
+    display: flexbox;
+}
+
+div>form{
+    align-self: flex-start;
+}
+
+div>textarea{
+    position: absolute;
+    top: 8vh;
+    left: 50vw;
+}
+
+img{
+    position: absolute;
+    left: 5vw;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form action="">
+            Material
+            <input type="text" id="Material">
+            <br>
+            Display name
+            <input type="text" id="DisplayName">
+            <br>
+            Variable name
+            <input type="text" id="Name">
+            <br>
+            Rarity
+            <select name="rarity" id="Rarity">
+                <option value="§f§lCOMMON">common</option>
+                <option value="§a§lUNCOMMON">uncommon</option>
+                <option value="§9§lRARE">rare</option>
+                <option value="§5§lEPIC">epic</option>
+                <option value="§6§lLEGENDARY">legendary</option>
+                <option value="§d§lMYTHIC">mythic</option>
+            </select>
+            <br>
+            Item type
+            <select name="type" id="type">
+                <option value="sword">sword</option>
+                <option value="bow">bow</option>
+                <option value="wand">wand</option>
+                <option value="tool">tool</option>
+                <option value="item">item</option>
+                <option value="helmet">helmet</option>
+                <option value="chestplate">chestplate</option>
+                <option value="leggings">leggings</option>
+                <option value="boots">boots</option>
+            </select>
+            <br>
+            Lore &
+            <br>
+            <textarea name="lore" id="lore" cols="50" rows="10"></textarea>
+            <br>
+        </form>
+        <button onclick="refresh()">Refresh</button>
+        <img src="mc_colors.png" alt="colors">
+        <textarea name="generated" id="generated" cols="120" rows="45"></textarea>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
